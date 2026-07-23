@@ -105,7 +105,7 @@ nav p {
 .container {
   display: flex;
   margin-top: 45px; /* same as header height */
-  height: calc(100vh - 45px);
+   min-height: calc(100vh - 45px);
   padding: 20px;
 }
 
@@ -232,6 +232,7 @@ a {
 .project-layout {
   display: flex;
   gap: 1rem;           /* space between columns */
+  
 }
 
 /* Big image */
@@ -257,8 +258,9 @@ a {
 }
 
 .small-box {
-  height: 400px;       /* fixed height for small images */
+  height: 800px;       /* fixed height for small images */
   overflow: hidden;
+  
 }
 
 .small-box img {
